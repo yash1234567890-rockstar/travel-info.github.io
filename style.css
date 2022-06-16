@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(background.jpg);
+    background-image: url(img/back.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -19,7 +19,7 @@ body{
     width: 930px;
     height: 520px;
     box-shadow: 0 0 8px rgba(255,255,255,1);
-    background-image: url(background.jpg);
+    background-image: url(img/front.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ nav{
 }
 .logo{
     font-size: 22px;
-    color: whitesmoke;
+    color: #fff;
     cursor: pointer;
 }
 nav ul{
@@ -75,7 +75,7 @@ h3{
 }
 
 h1{
-    color: whitesmoke;
+    color: #fff;
     margin: 0 110px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150px;
@@ -91,7 +91,7 @@ h1{
 }
 
 .icons i{
-    color: whitesmoke;
+    color: #fff;
 }
 
 .icons{
@@ -116,5 +116,5 @@ h1{
     transition: 0.1s all;
 }
 .icons ul li i:hover{
-    color: green;
+    color: aqua;
 }
